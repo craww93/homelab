@@ -1,7 +1,22 @@
-# Homelab
+
 # Homelab
 
 Mijn DevOps homelab draait op Proxmox.
+
+## Architecture
+
+```text
+Internet
+    │
+Router
+    │
+Mini PC
+└── Proxmox
+    └── Ubuntu DevOps VM
+        ├── Docker
+        ├── Portainer
+        └── Nginx
+```
 
 ## Infrastructure
 
