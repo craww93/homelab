@@ -22,9 +22,10 @@ Mini PC
 
 ## Infrastructure
 
-- Proxmox VE
+- Proxmox
 - Ubuntu Server
 - Docker
+- Docker Compose
 - Portainer
 - Nginx
 
@@ -43,7 +44,7 @@ Mini PC
 - Learn Kubernetes
 - Learn Terraform
 - Learn Azure DevOps
-- Learn CI/CD
+- Build CI/CD Pipelines
 
 ## Completed
 
