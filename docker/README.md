@@ -42,3 +42,10 @@ docker compose down
 - Understand Docker Images
 - Understand Containers
 - Learn Docker Compose
+
+- [x] Docker Desktop Installation
+- [x] Docker WSL Integration
+- [x] First Docker Container
+- [x] First Docker Compose Deployment
+- [x] Custom Nginx Web Page
+- [x] Docker Volume Mounts
