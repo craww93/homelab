@@ -82,7 +82,13 @@ Mini PC
 - [x] WSL Ubuntu Setup
 - [x] Ansible Installation
 - [x] First Ansible Playbook
-- [x] Ansible Inventory Configuration
+- [x] Ansible Inventory Configuration-
+- [x] Docker Desktop Installation
+- [x] Docker WSL Integration
+- [x] First Docker Container
+- [x] First Docker Compose Deployment
+- [x] Local Nginx Deployment
+
  
 ## Next Steps
 
