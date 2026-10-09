@@ -18,5 +18,3 @@ Docker learning environment and container deployments.
 ```bash
 docker run hello-world
 
-
-<img width="1212" height="296" alt="docker" src="https://github.com/user-attachments/assets/528a99b4-ed37-40a6-a1af-39fe4b2a9bc7" />
