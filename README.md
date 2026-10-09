@@ -30,7 +30,7 @@ Mini PC
   
 ### Operating System
 - Ubuntu Server 26.04 LTS
-- 
+  
 ### Container Platform
 - Docker
 - Docker Compose
