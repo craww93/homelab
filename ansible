@@ -1,0 +1,15 @@
+
+
+# Ansible
+
+Learning environment for Ansible automation.
+
+## Completed
+
+- Hello World Playbook
+- Local Inventory Configuration
+- Folder Creation Playbook
+- File Creation Playbook
+- Ansible Idempotency Testing
+
+Add ansible documentation
