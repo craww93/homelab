@@ -42,5 +42,3 @@ docker compose down
 - Understand Docker Images
 - Understand Containers
 - Learn Docker Compose
-
-- 
