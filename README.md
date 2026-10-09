@@ -35,10 +35,10 @@ Mini PC
 - Docker
 - Docker Compose
 - Portainer
-- 
+  
 ### Services
 - Nginx
-- 
+  
 ### Source Control
 - Git
 - GitHub
