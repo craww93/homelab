@@ -3,9 +3,8 @@
 ![Proxmox](https://img.shields.io/badge/Proxmox-VE-E57000?style=for-the-badge&logo=proxmox) ![Ubuntu](https://img.shields.io/badge/Ubuntu-Server-E95420?style=for-the-badge&logo=ubuntu) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker) ![Portainer](https://img.shields.io/badge/Portainer-13BEF9?style=for-the-badge&logo=portainer) 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github/homelab)
 
-
-My DevOps homelab is hosted on a dedicated Mini PC running Proxmox VE.
 ## Why This Homelab
+My DevOps homelab is hosted on a dedicated Mini PC running Proxmox VE.
 
 This homelab was created to gain hands-on experience with modern DevOps and Platform Engineering technologies, including Linux, Docker, Ansible, Terraform, Kubernetes and CI/CD tooling.
 
