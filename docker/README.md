@@ -17,4 +17,3 @@ Docker learning environment and container deployments.
 
 ```bash
 docker run hello-world
-
