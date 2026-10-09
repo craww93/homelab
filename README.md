@@ -2,8 +2,9 @@
 
 ![Proxmox](https://img.shields.io/badge/Proxmox-VE-E57000?style=for-the-badge&logo=proxmox) ![Ubuntu](https://img.shields.io/badge/Ubuntu-Server-E95420?style=for-the-badge&logo=ubuntu) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker) ![Portainer](https://img.shields.io/badge/Portainer-13BEF9?style=for-the-badge&logo=portainer) 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github/homelab)
+# Homelab
 
-My DevOps homelab is built on Proxmox and hosted on a dedicated mini PC.
+My DevOps homelab is hosted on a dedicated Mini PC running Proxmox VE.
 
 ## Architecture
 
@@ -16,35 +17,53 @@ Mini PC
 └── Proxmox
     └── Ubuntu DevOps VM
         ├── Docker
+        ├── Docker Compose
         ├── Portainer
         └── Nginx
 ```
 
 ## Infrastructure
 
-- Proxmox
-- Ubuntu Server
+### Virtualization
+- Proxmox VE
+
+### Operating System
+- Ubuntu Server 26.04 LTS
+
+### Container Platform
 - Docker
 - Docker Compose
 - Portainer
+
+### Services
 - Nginx
+
+### Source Control
+- Git
+- GitHub
+
+### Local Development Environment
+- Windows 11
+- WSL Ubuntu 26.04
+- Ansible
 
 ## Current Setup
 
 ### Host
-- Mini PC
-- Proxmox
+- Dedicated Mini PC
+- Proxmox VE
 
-### VMs
+### Virtual Machines
 - Ubuntu DevOps Server
 
-## Goals
+## Ansible Learning Lab
 
-- Learn Docker
-- Learn Kubernetes
-- Learn Terraform
-- Learn Azure DevOps
-- Build CI/CD Pipelines
+Completed:
+- Hello World Playbook
+- Local Inventory Configuration
+- Folder Creation Playbook
+- File Creation Playbook
+- Ansible Idempotency Testing
 
 ## Completed
 
@@ -52,6 +71,35 @@ Mini PC
 - [x] Ubuntu VM Creation
 - [x] SSH Configuration
 - [x] Docker Installation
+- [x] Docker Compose Installation
 - [x] Portainer Deployment
 - [x] First Nginx Container
+- [x] Git Installation
 - [x] GitHub Integration
+- [x] WSL Ubuntu Setup
+- [x] Ansible Installation
+- [x] First Ansible Playbook
+- [x] Ansible Inventory Configuration
+
+## Next Steps
+
+- [ ] Tailscale
+- [ ] Jenkins
+- [ ] Docker CI/CD
+- [ ] Terraform
+- [ ] Kubernetes (k3s)
+- [ ] Azure DevOps Pipelines
+- [ ] Grafana
+- [ ] Prometheus
+- [ ] Monitoring & Alerting
+- [ ] GitOps
+
+## Learning Goals
+
+- Learn Linux Administration
+- Learn Infrastructure as Code
+- Learn Configuration Management
+- Learn Containerization
+- Learn CI/CD
+- Learn Kubernetes
+- Prepare for DevOps Engineering Roles
