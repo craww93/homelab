@@ -14,31 +14,26 @@ Docker learning environment and container deployments.
 ## Commands Used
 
 ### Run Hello World
-
 ```bash
 docker run hello-world
 ```
 
 ### Run Nginx
-
 ```bash
 docker run -d -p 8080:80 nginx
 ```
 
 ### Start Docker Compose
-
 ```bash
 docker compose up -d
 ```
 
 ### Stop Docker Compose
-
 ```bash
 docker compose down
 ```
 
 ## Learning Goals
-
 - Understand Docker Images
 - Understand Containers
 - Learn Docker Compose
