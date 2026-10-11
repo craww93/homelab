@@ -8,10 +8,6 @@ My DevOps homelab is hosted on a dedicated Mini PC running Proxmox VE.
 
 This homelab was created to gain hands-on experience with modern DevOps and Platform Engineering technologies, including Linux, Docker, Ansible, Terraform, Kubernetes and CI/CD tooling.
 
-# Homelab
-
-My DevOps homelab is hosted on a dedicated Mini PC running Proxmox VE.
-
 ## Architecture
 
 ```text
