@@ -61,15 +61,13 @@ Mini PC
 Tailscale is configured on:
 
 - Windows workstation
-- Proxmox host
+- Proxmox VE host
 - Ubuntu DevOps VM
 
-This enables secure remote administration without port forwarding.
+This enables secure remote administration without exposing services to the internet or using port forwarding.
  
 ### Tailscale Network
 <img width="747" height="206" alt="image" src="https://github.com/user-attachments/assets/2a9cdf3e-d663-44e9-9d54-97b32d098fa9" />
-
-
 
 ## Current Setup
 
