@@ -58,9 +58,18 @@ Mini PC
 
 ### Remote Access
 
-- Tailscale
-- SSH via Tailscale
-- Proxmox Web Interface via Tailscale
+Tailscale is configured on:
+
+- Windows workstation
+- Proxmox host
+- Ubuntu DevOps VM
+
+This enables secure remote administration without port forwarding.
+ 
+### Tailscale Network
+<img width="747" height="206" alt="image" src="https://github.com/user-attachments/assets/2a9cdf3e-d663-44e9-9d54-97b32d098fa9" />
+
+
 
 ## Current Setup
 
@@ -158,6 +167,15 @@ homelab/
 ```
 
 ## Changelog
+
+### 2026-10-09
+
+### Added
+- Installed Tailscale on Proxmox
+- Installed Tailscale on Ubuntu VM
+- Configured secure remote access
+- Enabled SSH access through Tailscale
+- Enabled remote Proxmox management
 
 ### 2026-10-09
 
