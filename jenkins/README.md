@@ -29,11 +29,8 @@ The first pipeline was used to validate the Jenkins installation and execute a s
 
 Result:
 
-```text
-<img width="2533" height="327" alt="jenkins pipeline" src="https://github.com/user-attachments/assets/eab27c3a-c4fb-493c-835d-21a6b2eca8f0" />
+```
 
-
-<img width="2541" height="575" alt="jenkins console" src="https://github.com/user-attachments/assets/e8ca49c6-eced-4c8a-9a5e-2befc23748f2" />
 
 ```
 ## Access
@@ -42,7 +39,7 @@ Result:
 
 ```text
 
-<img width="931" height="993" alt="jenkins dashboard" src="https://github.com/user-attachments/assets/757708a2-c81c-416b-bf69-7c026c93179c" />
+
 ```
 ## Next Goals
 
