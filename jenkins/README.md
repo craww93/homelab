@@ -2,17 +2,16 @@
 
 Jenkins is deployed as a Docker container on my Ubuntu DevOps VM running on Proxmox VE.
 
-The goal of this lab is to gain hands-on experience with Continuous Integration and Continuous Delivery (CI/CD) concepts, build automation and pipeline creation.
+The goal of this lab is to gain hands-on experience with Continuous Integration and Continuous Delivery (CI/CD), build automation, and pipeline development.
 
 ## What I Learned
 
 - Deploying Jenkins using Docker Compose
-- Initial Jenkins configuration
+- Performing the initial Jenkins configuration
 - Installing and managing Jenkins plugins
 - Creating administrative users
 - Building and running Jenkins Pipelines
 - Understanding build logs and pipeline output
-
 
 ## Achievements
 
@@ -20,12 +19,31 @@ The goal of this lab is to gain hands-on experience with Continuous Integration 
 - Configured Jenkins through the setup wizard
 - Installed recommended plugins
 - Created a dedicated administrator account
-- Built and executed a first pipeline
+- Built and executed my first pipeline
 - Achieved a successful build status
-- 
+
 ## First Pipeline
 
-Please refer to the attached screenshots for the Jenkins deployment, configuration and successful pipeline execution.
+The first pipeline was created to validate the Jenkins installation and verify pipeline execution.
+
+Result:
+
+```text
+Hello from Jenkins!
+Finished: SUCCESS
+```
+
+### Screenshots
+
+Please refer to the attached screenshots for the Jenkins deployment, configuration, and successful pipeline execution.
+
+#### Jenkins Dashboard
+
+../screenshots/jenkins-dashboard.png
+
+#### First Successful Build
+
+../screenshots/jenkins-first-build.png
 
 ## Next Goals
 
@@ -34,3 +52,4 @@ Please refer to the attached screenshots for the Jenkins deployment, configurati
 - Create automated build pipelines
 - Build and deploy Docker containers
 - Explore CI/CD best practices
+- Build a complete CI/CD workflow
