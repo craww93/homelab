@@ -122,8 +122,12 @@ This enables secure remote administration without exposing services to the inter
 - [x] Tailscale Installation
 - [x] Proxmox Access via Tailscale
 - [x] SSH Access via Tailscale
-- [x] Ubuntu VM Access via Tailscale
-
+- [x] Ubuntu VM Access via Tailscale-
+- [x] Jenkins Deployment
+- [x] Jenkins Initial Configuration
+- [x] Jenkins Plugin Installation
+- [x] Jenkins Admin User Creation
+      
 ## Next Steps
 
 - [ ] Jenkins
