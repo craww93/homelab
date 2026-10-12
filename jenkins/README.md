@@ -30,10 +30,9 @@ The first pipeline was used to validate the Jenkins installation and execute a s
 Result:
 
 ```text
+<img width="2541" height="575" alt="jenkins console" src="https://github.com/user-attachments/assets/61a26976-8f65-4ad4-b4ec-25f88823348d" />
 
-Hello from Jenkins!
-
-Finished: SUCCESS
+<img width="2533" height="327" alt="jenkins pipeline" src="https://github.com/user-attachments/assets/849a84f5-a6e9-4634-99fb-7a625007bc88" />
 ```
 ## Access
 
@@ -41,7 +40,7 @@ Finished: SUCCESS
 
 ```text
 
-http://100.115.58.18:8082
+<img width="931" height="993" alt="jenkins dashboard" src="https://github.com/user-attachments/assets/7b9f52fd-0108-401a-9540-deb5a54c769c" />
 
 ```
 ## Next Goals
@@ -51,10 +50,3 @@ http://100.115.58.18:8082
 - Create automated build pipelines
 - Build and deploy Docker containers
 - Explore CI/CD best practices
-  
-<img width="931" height="993" alt="jenkins dashboard" src="https://github.com/user-attachments/assets/7b9f52fd-0108-401a-9540-deb5a54c769c" />
-
-<img width="2541" height="575" alt="jenkins console" src="https://github.com/user-attachments/assets/61a26976-8f65-4ad4-b4ec-25f88823348d" />
-
-<img width="2533" height="327" alt="jenkins pipeline" src="https://github.com/user-attachments/assets/849a84f5-a6e9-4634-99fb-7a625007bc88" />
-
