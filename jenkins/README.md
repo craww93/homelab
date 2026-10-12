@@ -25,22 +25,14 @@ The goal of this lab is to gain hands-on experience with Continuous Integration 
 - 
 ## First Pipeline
 
-The first pipeline was used to validate the Jenkins installation and execute a simple build stage.
+The first pipeline was used to validate the Jenkins installation and execute a simple build stage. (See attached screenshot)
 
-Result:
-
-```
-
-
-```
 ## Access
 
 ### Jenkins Dashboard
 
-```text
+See attached screenshot
 
-
-```
 ## Next Goals
 
 - Integrate GitHub repositories
