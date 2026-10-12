@@ -53,3 +53,43 @@ Please refer to the attached screenshots for the Jenkins deployment, configurati
 - Build and deploy Docker containers
 - Explore CI/CD best practices
 - Build a complete CI/CD workflow
+
+#### Completed
+
+- [x] Jenkins Deployment
+- [x] Jenkins Initial Configuration
+- [x] Jenkins Plugin Installation
+- [x] Jenkins Admin User Creation
+- [x] First Jenkins Pipeline
+- [x] First Successful Build
+- [x] GitHub Repository Integration
+- [x] Jenkinsfile Configuration
+- [x] Source Control Pipeline Execution
+
+
+## Homelab Pipeline Deployment
+
+A dedicated Jenkins pipeline was created and integrated with the GitHub homelab repository.
+
+The pipeline successfully:
+
+- Connected to the GitHub repository
+- Cloned the latest source code from the `main` branch
+- Retrieved the Jenkinsfile from source control
+- Executed all configured pipeline stages
+- Completed the build successfully
+
+This implementation represents the first CI/CD workflow within the homelab environment and provides the foundation for future automation, build validation and deployment processes.
+
+### Pipeline Result
+
+```text
+Repository connected successfully
+Running CI/CD pipeline
+
+Pipeline completed successfully
+
+Finished: SUCCESS
+```
+
+<img width="1472" height="1170" alt="image" src="https://github.com/user-attachments/assets/193f2d7f-3b6e-4279-8813-de4c06be8b60" />
