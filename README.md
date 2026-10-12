@@ -66,13 +66,6 @@ This enables secure remote administration without exposing services to the inter
 ### Tailscale Network
 <img width="747" height="206" alt="image" src="https://github.com/user-attachments/assets/2a9cdf3e-d663-44e9-9d54-97b32d098fa9" />
 
-## Jenkins
-
-### Dashboard
-
-<img width="931" height="993" alt="jenkins dashboard" src="https://github.com/user-attachments/assets/7b9f52fd-0108-401a-9540-deb5a54c769c" />
-
-
 
 ## Current Setup
 
