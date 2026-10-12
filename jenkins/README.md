@@ -96,3 +96,32 @@ Finished: SUCCESS
 
 
 Testing automatic Jenkins build trigger
+
+
+## Continuous Integration
+
+A Poll SCM trigger was configured in Jenkins to automatically monitor the GitHub repository for changes.
+
+When a commit is pushed to the main branch, Jenkins automatically detects the change, retrieves the latest source code and executes the configured pipeline.
+
+### Achievements
+
+- Configured Poll SCM
+- Connected Jenkins to GitHub
+- Enabled automatic build execution
+- Validated Continuous Integration workflow
+- Successfully executed automated builds
+
+### Build Result
+
+```text
+
+Started by an SCM change
+Repository connected successfully
+Running CI/CD pipeline
+Pipeline completed successfully
+Finished: SUCCESS
+
+<img width="1832" height="1262" alt="image" src="https://github.com/user-attachments/assets/2e9a6778-174f-4472-a779-bfb761e9c308" />
+
+
