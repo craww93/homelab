@@ -93,3 +93,6 @@ Finished: SUCCESS
 ```
 
 <img width="1472" height="1170" alt="image" src="https://github.com/user-attachments/assets/193f2d7f-3b6e-4279-8813-de4c06be8b60" />
+
+
+Testing automatic Jenkins build trigger
