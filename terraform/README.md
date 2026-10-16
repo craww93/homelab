@@ -24,13 +24,11 @@ Terraform successfully connected to the Proxmox VE API, authenticated using a de
 Example output:
 
 ```text
-8
 Node Name: pve
-9
+2
 Template ID: 9000
-10
+3
 Deployment Status: SUCCESS
-11
 ```
 
 ### Evidence
@@ -66,7 +64,7 @@ clone {
 }
 ```
 
-Terraform successfully validated the deployment configuration and generated an execution plan for a new virtual machine.
+Terraform successfully cloned an Ubuntu Cloud-Init template and provisioned a virtual machine within the Proxmox environment.
 
 <img width="1692" height="1345" alt="image" src="https://github.com/user-attachments/assets/2ff6ab64-24a8-456f-8e7e-84de6f12db3f" />
 
@@ -102,6 +100,39 @@ This deployment represents the first Infrastructure as Code (IaC) workload succe
 - Terraform State Management
 - Cloud-Init Template Deployment
 
+
+## Terraform Cloud-Init Configuration
+
+Terraform was extended with Cloud-Init configuration to automate user provisioning and SSH access.
+
+
+### Deployment Result
+
+```text
+User: quincy
+SSH Key: terraform-proxmox
+IP Configuration: DHCP
+```
+
+### Evidence
+
+Terraform successfully deployed a virtual machine from the Ubuntu Cloud-Init template and automatically configured the operating system using Cloud-Init.
+
+The deployment included:
+
+- Automatic VM provisioning
+- Cloud-Init configuration
+- User account creation
+- SSH public key deployment
+- DHCP network configuration
+
+The screenshot below shows the deployed virtual machine and its Cloud-Init configuration.
+
+<img width="1692" height="1345" alt="Terraform Cloud-Init Deployment" src="https://github.com/user-attachments/assets/2ff6ab64-24a8-456f-8e7e-84de6f12db3f" />
+``
+
+<img width="1303" height="539" alt="image" src="https://github.com/user-attachments/assets/4254d694-efec-4980-919d-38cd665e32a3" />
+
 ### Completed
 
 - [x] Proxmox API User Creation
@@ -115,13 +146,15 @@ This deployment represents the first Infrastructure as Code (IaC) workload succe
 - [x] Terraform Template Discovery
 - [x] Terraform VM Clone Planning
 - [x] First Terraform VM Deployment
+- [x] Cloud-Init Configuration
+- [x] SSH Public Key Deployment
+- [x] Automated User Provisioning
 
 ## Next Goals
 
-- [ ] Configure Cloud-Init Networking
+- [ ] Test SSH Connectivity to Provisioned VM
 - [ ] Configure Static IP Assignment
-- [ ] Configure SSH Access through Terraform
-- [ ] Automate VM Provisioning
+- [ ] Automate VM Provisioning with Ansible
 - [ ] Configure Terraform Remote State
 - [ ] Build Reusable Terraform Modules
 - [ ] Integrate Terraform with Jenkins
