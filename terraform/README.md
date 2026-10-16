@@ -83,7 +83,6 @@ Terraform successfully cloned an Ubuntu Cloud-Init template and provisioned a vi
 ```text
 
 Source Template : VM 9000 (ubuntu-24-template)
-
 Target VM : VM 101 (ubuntu-test)
 Status : Running
 CPU : 2 vCPU
