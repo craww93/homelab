@@ -75,6 +75,8 @@ clone {
 
 Terraform successfully validated the deployment configuration and generated an execution plan for a new virtual machine.
 
+<img width="1692" height="1345" alt="image" src="https://github.com/user-attachments/assets/2ff6ab64-24a8-456f-8e7e-84de6f12db3f" />
+
 Result:
 
 ```text
