@@ -40,7 +40,8 @@ Status: Online
 
 See attached screenshot showing successful communication between Terraform and Proxmox.
 
-<img width="1366" height="692" alt="Terraform Proxmox Integration" src="YOUR_SCREENSHOT_H
+<img width="1326" height="690" alt="image" src="https://github.com/user-attachments/assets/baf85a22-6679-4775-b0d3-ca1e65a520ef" />
+
 
 ## Next Goals
 
