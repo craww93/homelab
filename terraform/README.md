@@ -1,70 +1,52 @@
-# Terraform
+## Terraform Proxmox Integration
 
-Terraform was installed and configured as part of the Infrastructure as Code (IaC) learning path within the homelab environment.
+Terraform was successfully integrated with the Proxmox VE API using a dedicated service account and API token.
 
-## Completed
+### Completed
 
-- [x] Terraform Installation
-- [x] Terraform Configuration
-- [x] Terraform Init
-- [x] Terraform Validate
-- [x] Terraform Plan
-- [x] Terraform Apply
-- [x] First Terraform Resource
-- [x] Terraform State Management
-- [x] Terraform Variables
-- [x] Terraform Outputs
+- [x] Proxmox API User Creation
+- [x] Proxmox API Token Configuration
+- [x] Proxmox Provider Installation
+- [x] Terraform Provider Initialization
+- [x] Proxmox API Authentication
+- [x] Proxmox Node Discovery
 
-## First Terraform Deployment
+### Provider Configuration
 
-A local file resource was successfully deployed using Terraform.
+```hcl
+terraform {
+  required_providers {
+    proxmox = {
+      source  = "bpg/proxmox"
+      version = "0.116.1"
+    }
+  }
+}
+```
 
 ### Result
 
+Terraform successfully connected to the Proxmox environment and retrieved node information through the API.
+
+Example output:
+
 ```text
-terraform-test.txt
-Hello from Terraform!
+Node Name: pve
+CPU Count: 6
+Status: Online
 ```
 
 ### Evidence
 
-See attached screenshot for the successful Terraform deployment.
+See attached screenshot showing successful communication between Terraform and Proxmox.
 
-<img width="1059" height="706" alt="image" src="https://github.com/user-attachments/assets/084c5215-0e7f-40d2-8cce-17357083180a" />
-
-## Terraform Variables and Outputs
-
-Variables and outputs were implemented to improve the flexibility and reusability of the Terraform configuration.
-
-### Variable
-
-```hcl
-variable "environment" {
-  type        = string
-  description = "Environment name"
-  default     = "homelab"
-}
-```
-
-### Output
-
-```hcl
-output "environment_name" {
-  value = var.environment
-}
-```
-
-### Result
-
-```text
-environment_name = "homelab"
-```
+<img width="1366" height="692" alt="Terraform Proxmox Integration" src="YOUR_SCREENSHOT_H
 
 ## Next Goals
 
-- [ ] Azure Authentication
-- [ ] Azure Provider Configuration
-- [ ] Azure Resource Group Deployment
-- [ ] Azure Storage Account Deployment
-- [ ] Terraform Modules
-- [ ] Remote State Management
+- [ ] Deploy an Ubuntu VM from Terraform
+- [ ] Create a Cloud-Init Template
+- [ ] Automate VM Provisioning
+- [ ] Configure Terraform Remote State
+- [ ] Build Reusable Terraform Modules
+- [ ] Integrate Terraform with Jenkins
