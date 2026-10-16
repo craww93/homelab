@@ -1,19 +1,8 @@
 ## Terraform Proxmox Integration
 
+## First Terraform VM Deployment
+
 Terraform was successfully integrated with the Proxmox VE API using a dedicated service account and API token.
-
-### Completed
-
-- [x] Proxmox API User Creation
-- [x] Proxmox API Token Configuration
-- [x] Proxmox Provider Installation
-- [x] Terraform Provider Initialization
-- [x] Proxmox API Authentication
-- [x] Proxmox Node Discovery
-- [x] Ubuntu Cloud Image Deployment
-- [x] Ubuntu Cloud-Init Template Creation
-- [x] Terraform Template Discovery
-- [x] Terraform VM Clone Planning
 
 ### Provider Configuration
 
@@ -30,14 +19,18 @@ terraform {
 
 ### Result
 
-Terraform successfully connected to the Proxmox environment and retrieved node information through the API.
+Terraform successfully connected to the Proxmox VE API, authenticated using a dedicated API token, discovered available nodes and templates, and deployed a virtual machine from an Ubuntu Cloud-Init template.
 
 Example output:
 
 ```text
+8
 Node Name: pve
-CPU Count: 6
-Status: Online
+9
+Template ID: 9000
+10
+Deployment Status: SUCCESS
+11
 ```
 
 ### Evidence
@@ -61,9 +54,9 @@ Node: pve
 
 The template serves as the base image for future Infrastructure as Code (IaC) deployments using Terraform.
 
-### Terraform VM Deployment Planning
+## First Terraform VM Deployment
 
-Terraform was configured to clone an Ubuntu Cloud-Init template from Proxmox.
+Terraform successfully cloned an Ubuntu Cloud-Init template and deployed a new virtual machine within the Proxmox environment.
 
 Example configuration:
 
@@ -77,15 +70,44 @@ Terraform successfully validated the deployment configuration and generated an e
 
 <img width="1692" height="1345" alt="image" src="https://github.com/user-attachments/assets/2ff6ab64-24a8-456f-8e7e-84de6f12db3f" />
 
-Result:
+
+### Deployment Result
 
 ```text
-Plan: 1 to add, 0 to change, 0 to destroy
+
+Source Template : VM 9000 (ubuntu-24-template)
+
+Target VM : VM 101 (ubuntu-test)
+
+Status : Running
+
+CPU : 2 vCPU
+
+Memory : 2 GB
+
+Provisioning : Success
+
 ```
+
+This deployment represents the first Infrastructure as Code (IaC) workload successfully provisioned within the homelab environment using Terraform and Proxmox VE.
+
+
+### Completed
+
+- [x] Proxmox API User Creation
+- [x] Proxmox API Token Configuration
+- [x] Proxmox Provider Installation
+- [x] Terraform Provider Initialization
+- [x] Proxmox API Authentication
+- [x] Proxmox Node Discovery
+- [x] Ubuntu Cloud Image Deployment
+- [x] Ubuntu Cloud-Init Template Creation
+- [x] Terraform Template Discovery
+- [x] Terraform VM Clone Planning
+- [x] First Terraform VM Deployment
 
 ## Next Goals
 
-- [ ] Deploy first Ubuntu VM with Terraform
 - [ ] Configure Cloud-Init Networking
 - [ ] Configure SSH Access through Terraform
 - [ ] Automate VM Provisioning
