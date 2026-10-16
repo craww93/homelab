@@ -1,7 +1,5 @@
 ## Terraform Proxmox Integration
 
-## First Terraform VM Deployment
-
 Terraform was successfully integrated with the Proxmox VE API using a dedicated service account and API token.
 
 ### Provider Configuration
@@ -16,6 +14,21 @@ terraform {
   }
 }
 ```
+### Proxmox Node Discovery
+
+Terraform successfully authenticated against the Proxmox API and retrieved detailed node information.
+
+Example output:
+
+```text
+Node Name : pve
+CPU Count : 6
+Status : Online
+Memory Available: 16533413888
+Memory Used : 2455429120
+```
+
+<img width="1326" height="690" alt="Terraform Proxmox Node Discovery" src="https://github.com/user-attachments/assets/baf85a22-6679-4775-b0d3-ca1e65a520ef" />
 
 ### Deployment Result
 
@@ -28,8 +41,6 @@ Node Name: pve
 Template ID: 9000
 Deployment Status: SUCCESS
 ```
-
-### Evidence
 
 See attached screenshot showing successful communication between Terraform and Proxmox.
 
@@ -74,13 +85,9 @@ Terraform successfully cloned an Ubuntu Cloud-Init template and provisioned a vi
 Source Template : VM 9000 (ubuntu-24-template)
 
 Target VM : VM 101 (ubuntu-test)
-
 Status : Running
-
 CPU : 2 vCPU
-
 Memory : 2 GB
-
 Provisioning : Success
 
 ```
@@ -126,27 +133,9 @@ The deployment included:
 
 The screenshot below shows the deployed virtual machine and its Cloud-Init configuration.
 
-<img width="1692" height="1345" alt="Terraform Cloud-Init Deployment" src="https://github.com/user-attachments/assets/2ff6ab64-24a8-456f-8e7e-84de6f12db3f" />
 ``
 
 <img width="1303" height="539" alt="image" src="https://github.com/user-attachments/assets/4254d694-efec-4980-919d-38cd665e32a3" />
-
-### Proxmox Node Discovery
-
-Terraform successfully authenticated against the Proxmox API and retrieved detailed node information.
-
-Example output:
-
-```text
-Node Name : pve
-CPU Count : 6
-Status : Online
-Memory Available: 16533413888
-Memory Used : 2455429120
-```
-### Evidence
-<img width="1326" height="690" alt="Terraform Proxmox Node Discovery" src="https://github.com/user-attachments/assets/baf85a22-6679-4775-b0d3-ca1e65a520ef" />
-
 
 ### Completed
 
