@@ -91,6 +91,16 @@ Provisioning : Success
 
 This deployment represents the first Infrastructure as Code (IaC) workload successfully provisioned within the homelab environment using Terraform and Proxmox VE.
 
+## Skills Demonstrated
+
+- Infrastructure as Code (IaC)
+- Terraform Provider Configuration
+- Proxmox API Integration
+- API Token Authentication
+- VM Template Management
+- Virtual Machine Provisioning
+- Terraform State Management
+- Cloud-Init Template Deployment
 
 ### Completed
 
@@ -109,9 +119,10 @@ This deployment represents the first Infrastructure as Code (IaC) workload succe
 ## Next Goals
 
 - [ ] Configure Cloud-Init Networking
+- [ ] Configure Static IP Assignment
 - [ ] Configure SSH Access through Terraform
 - [ ] Automate VM Provisioning
 - [ ] Configure Terraform Remote State
 - [ ] Build Reusable Terraform Modules
 - [ ] Integrate Terraform with Jenkins
-- [ ] Deploy Infrastructure using CI/CD Pipelines
+- [ ] Provision Infrastructure using CI/CD Pipelines
