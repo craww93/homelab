@@ -17,7 +17,7 @@ terraform {
 }
 ```
 
-### Result
+### Deployment Result
 
 Terraform successfully connected to the Proxmox VE API, authenticated using a dedicated API token, discovered available nodes and templates, and deployed a virtual machine from an Ubuntu Cloud-Init template.
 
@@ -25,9 +25,7 @@ Example output:
 
 ```text
 Node Name: pve
-2
 Template ID: 9000
-3
 Deployment Status: SUCCESS
 ```
 
@@ -132,6 +130,23 @@ The screenshot below shows the deployed virtual machine and its Cloud-Init confi
 ``
 
 <img width="1303" height="539" alt="image" src="https://github.com/user-attachments/assets/4254d694-efec-4980-919d-38cd665e32a3" />
+
+### Proxmox Node Discovery
+
+Terraform successfully authenticated against the Proxmox API and retrieved detailed node information.
+
+Example output:
+
+```text
+Node Name : pve
+CPU Count : 6
+Status : Online
+Memory Available: 16533413888
+Memory Used : 2455429120
+```
+### Evidence
+<img width="1326" height="690" alt="Terraform Proxmox Node Discovery" src="https://github.com/user-attachments/assets/baf85a22-6679-4775-b0d3-ca1e65a520ef" />
+
 
 ### Completed
 
