@@ -1,8 +1,8 @@
-## Terraform
+# Terraform
 
 Terraform was installed and configured as part of the Infrastructure as Code (IaC) learning path within the homelab environment.
 
-### Completed
+## Completed
 
 - [x] Terraform Installation
 - [x] Terraform Configuration
@@ -15,17 +15,22 @@ Terraform was installed and configured as part of the Infrastructure as Code (Ia
 - [x] Terraform Variables
 - [x] Terraform Outputs
 
-### First Terraform Deployment
+## First Terraform Deployment
 
-A local file resource was deployed using Terraform.
+A local file resource was successfully deployed using Terraform.
 
-Result:
+### Result
 
 ```text
 terraform-test.txt
 Hello from Terraform!
+```
 
+### Evidence
 
+See attached screenshot for the successful Terraform deployment.
+
+![Terraform Deployment](../screenshots
 ## Terraform Variables and Outputs
 
 Variables and outputs were implemented to improve the flexibility and reusability of the Terraform configuration.
@@ -53,3 +58,12 @@ output "environment_name" {
 ```text
 environment_name = "homelab"
 ```
+
+## Next Goals
+
+- [ ] Azure Authentication
+- [ ] Azure Provider Configuration
+- [ ] Azure Resource Group Deployment
+- [ ] Azure Storage Account Deployment
+- [ ] Terraform Modules
+- [ ] Remote State Management
