@@ -133,8 +133,6 @@ The deployment included:
 
 The screenshot below shows the deployed virtual machine and its Cloud-Init configuration.
 
-``
-
 <img width="1303" height="539" alt="image" src="https://github.com/user-attachments/assets/4254d694-efec-4980-919d-38cd665e32a3" />
 
 ### Completed
