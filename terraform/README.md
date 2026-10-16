@@ -30,7 +30,8 @@ Hello from Terraform!
 
 See attached screenshot for the successful Terraform deployment.
 
-![Terraform Deployment](../screenshots
+<img width="1059" height="706" alt="image" src="https://github.com/user-attachments/assets/084c5215-0e7f-40d2-8cce-17357083180a" />
+
 ## Terraform Variables and Outputs
 
 Variables and outputs were implemented to improve the flexibility and reusability of the Terraform configuration.
