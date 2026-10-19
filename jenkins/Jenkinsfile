@@ -2,6 +2,7 @@ pipeline {
     agent any
 
     stages {
+<<<<<<< HEAD
         stage('Build') {
             steps {
                 echo 'Build started'
@@ -21,3 +22,24 @@ pipeline {
         }
     }
 }
+=======
+        stage('Checkout') {
+            steps {
+                echo 'Repository connected successfully'
+            }
+        }
+
+        stage('Build') {
+            steps {
+                echo 'Running CI/CD pipeline'
+            }
+        }
+
+        stage('Success') {
+            steps {
+                echo 'Pipeline completed successfully'
+            }
+        }
+    }
+}
+>>>>>>> b57ac39c1a3dcf87e39f84d35b82d8ae0ea30300
