@@ -90,6 +90,42 @@ This enables secure remote administration without exposing services to the inter
 
 ## Docker Learning Lab
 
+## Terraform Learning Lab
+
+### Proxmox
+
+#### Completed
+
+- Terraform Installation
+- Proxmox Provider Configuration
+- Proxmox API Integration
+- Ubuntu Template Deployment
+- Cloud-Init Configuration
+- Automated VM Deployment
+- SSH User Provisioning
+
+### Azure
+
+#### Completed
+
+- Azure CLI Configuration
+- Azure Provider Configuration
+- Terraform State Management
+- Azure Resource Group Deployment
+- Azure Virtual Network Deployment
+- Azure Subnet Deployment
+
+  <img width="910" height="1133" alt="image" src="https://github.com/user-attachments/assets/4ea34800-c7ee-40a7-9d45-33a033375c6d" />
+
+
+### Terraform Workflow
+
+```bash
+terraform init
+terraform plan
+terraform apply
+``
+
 ### Completed
 
 - Docker Desktop Installation
