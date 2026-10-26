@@ -28,6 +28,35 @@ Network Security Group
 └── nsg-homelab-dev
 ```
 
+### Terraform Workflow
+
+```bash
+terraform init
+terraform plan
+terraform apply
+```
+
+### Azure CLI Commands
+
+```bash
+az login
+az account show
+az group list --output table
+```
+
+### Outcome
+
+Terraform was successfully used to deploy Azure infrastructure using Infrastructure as Code (IaC).
+
+The deployment included:
+
+- Azure Resource Group
+- Azure Virtual Network
+- Azure Subnet
+- Azure Network Security Group
+- Terraform State Management
+- Azure CLI Integration
+
 ## Next Steps
 
 - [ ] Azure Public IP
