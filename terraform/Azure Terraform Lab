@@ -26,13 +26,15 @@ Subnet
 
 Network Security Group
 └── nsg-homelab-dev
- 
-## Next Steps 
-- [ ] Azure Public IP 
-- [ ] Azure Network Interface 
-- [ ] Azure Ubuntu VM Deployment 
-- [ ] SSH Connectivity to Azure VM 
-- [ ] Configure Azure VM with Ansible 
-- [ ] Terraform Remote State 
-- [ ] Terraform Modules 
+```
+
+## Next Steps
+
+- [ ] Azure Public IP
+- [ ] Azure Network Interface
+- [ ] Azure Ubuntu VM Deployment
+- [ ] SSH Connectivity to Azure VM
+- [ ] Configure Azure VM with Ansible
+- [ ] Terraform Remote State
+- [ ] Terraform Modules
 - [ ] Terraform CI/CD Pipeline
