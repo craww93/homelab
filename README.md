@@ -62,7 +62,7 @@ Tailscale is configured on:
 - Ubuntu DevOps VM
 
 This enables secure remote administration without exposing services to the internet or using port forwarding.
- 
+ 
 ### Tailscale Network
 <img width="747" height="206" alt="image" src="https://github.com/user-attachments/assets/2a9cdf3e-d663-44e9-9d54-97b32d098fa9" />
 
@@ -103,7 +103,7 @@ This enables secure remote administration without exposing services to the inter
 - Cloud-Init Configuration
 - Automated VM Deployment
 - SSH User Provisioning
-aki
+
 ### Azure
 
 #### Completed
@@ -164,16 +164,12 @@ terraform apply
 - [x] Jenkins Initial Configuration
 - [x] Jenkins Plugin Installation
 - [x] Jenkins Admin User Creation
+      
+## Next Steps
 
-# Next Steps
-
-- [ ] Azure Network Security Group
-- [ ] Azure Public IP
-- [ ] Azure Network Interface
-- [ ] Azure Ubuntu VM Deployment
-- [ ] SSH Connectivity to Azure VM
-- [ ] Ansible VM Configuration
+- [ ] Jenkins
 - [ ] GitHub Actions
+- [ ] Terraform
 - [ ] Kubernetes (k3s)
 - [ ] Grafana
 - [ ] Prometheus
@@ -250,4 +246,4 @@ homelab/
 - Created First Ansible Playbook
 - Created Ansible Inventory
 - Automated Folder Creation with Ansible
-- Automated File Creation with Ansible
+- Automated File Creation with Ansible dit dus?
