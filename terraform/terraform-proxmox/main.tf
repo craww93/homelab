@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "proxmox" {
-  endpoint = "https://100.79.99.102:8006/"
+  endpoint = "https://PROXMOX_IP:8006/"
   insecure = true
 
   api_token = "terraform@pve!homelab=1eafdb8b-fce2-488d-bebc-104c5a857577"
@@ -30,7 +30,7 @@ resource "proxmox_virtual_environment_vm" "ubuntu_test" {
       username = "quincy"
 
       keys = [
-        file("C:/Users/q.crawford/.ssh/id_ed25519.pub")
+        file("~/.ssh/id_ed25519.pub")
       ]
     }
 
