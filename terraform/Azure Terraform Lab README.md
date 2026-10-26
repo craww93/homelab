@@ -160,7 +160,7 @@ Status Code: 404
 - Infrastructure Lifecycle Management
 - Azure CLI
 - Cloud Automation
-
+  
 ---
 
 ## Next Steps
@@ -168,7 +168,7 @@ Status Code: 404
 - [ ] Azure Public IP
 - [ ] Azure Network Interface
 - [ ] Azure Ubuntu VM Deployment
-- [ ] SSH Connectivity
+- [ ] SSH Connectivity to Azure VM
 - [ ] Ansible Configuration Management
 - [ ] Terraform Remote State
 - [ ] Terraform Modules
