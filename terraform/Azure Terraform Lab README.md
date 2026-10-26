@@ -86,7 +86,7 @@ Terraform successfully deployed the following Azure resources:
 
 ### Azure Portal Verification
 
-![Azure Resources](YOUR_SCREENSHOT_LINK)
+<img width="1070" height="649" alt="Screenshot 2026-10-26 133919" src="https://github.com/user-attachments/assets/0258e2bf-4e76-401e-80ef-f0a51efeec59" />
 
 The Azure Portal confirmed that the deployed resources existed within the Resource Group and matched the Terraform configuration.
 
@@ -94,11 +94,9 @@ The Azure Portal confirmed that the deployed resources existed within the Resour
 
 ## Terraform State Verification
 
-```bash
-terraform state list
-```
+Terraform successfully maintained state information for all deployed Azure resources throughout the deployment lifecycle.
 
-### Result
+### Managed Resources
 
 ```text
 azurerm_network_security_group.homelab
@@ -107,9 +105,7 @@ azurerm_subnet.homelab
 azurerm_virtual_network.homelab
 ```
 
-### Evidence
-
-![Terraform State](YOUR_SCREENSHOT_LINK)
+Terraform state enabled infrastructure tracking, validation and clean resource removal using a single `terraform destroy` command.
 
 ---
 
@@ -129,7 +125,8 @@ Destroy complete! Resources: 4 destroyed.
 
 ### Evidence
 
-![Terraform Destroy](YOUR_SCREENSHOT_LINK)
+<img width="937" height="1133" alt="Screenshot 2026-10-26 134334" src="https://github.com/user-attachments/assets/ceb6f250-2612-4531-8eb6-fa02ad79f056" />
+
 
 ---
 
@@ -146,7 +143,8 @@ Status Code: 404
 
 ### Evidence
 
-![Resource Removed](YOUR_SCREENSHOT_LINK)
+<img width="1149" height="981" alt="Screenshot 2026-10-26 134410" src="https://github.com/user-attachments/assets/dd17e762-ad35-447e-a788-3924954a4574" />
+
 
 ---
 
