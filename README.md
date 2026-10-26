@@ -103,7 +103,7 @@ This enables secure remote administration without exposing services to the inter
 - Cloud-Init Configuration
 - Automated VM Deployment
 - SSH User Provisioning
-
+aki
 ### Azure
 
 #### Completed
@@ -164,12 +164,16 @@ terraform apply
 - [x] Jenkins Initial Configuration
 - [x] Jenkins Plugin Installation
 - [x] Jenkins Admin User Creation
-      
-## Next Steps
 
-- [ ] Jenkins
+# Next Steps
+
+- [ ] Azure Network Security Group
+- [ ] Azure Public IP
+- [ ] Azure Network Interface
+- [ ] Azure Ubuntu VM Deployment
+- [ ] SSH Connectivity to Azure VM
+- [ ] Ansible VM Configuration
 - [ ] GitHub Actions
-- [ ] Terraform
 - [ ] Kubernetes (k3s)
 - [ ] Grafana
 - [ ] Prometheus
