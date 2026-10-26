@@ -10,3 +10,29 @@
 - [x] Deployed Azure Subnet
 - [x] Deployed Azure Network Security Group
 
+### Azure Architecture
+
+```text
+Resource Group
+└── rg-homelab-dev
+
+Virtual Network
+└── vnet-homelab-dev
+    └── 10.0.0.0/16
+
+Subnet
+└── subnet-homelab
+    └── 10.0.1.0/24
+
+Network Security Group
+└── nsg-homelab-dev
+ 
+## Next Steps 
+- [ ] Azure Public IP 
+- [ ] Azure Network Interface 
+- [ ] Azure Ubuntu VM Deployment 
+- [ ] SSH Connectivity to Azure VM 
+- [ ] Configure Azure VM with Ansible 
+- [ ] Terraform Remote State 
+- [ ] Terraform Modules 
+- [ ] Terraform CI/CD Pipeline
