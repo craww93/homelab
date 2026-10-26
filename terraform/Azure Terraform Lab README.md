@@ -148,6 +148,21 @@ Status Code: 404
 
 ---
 
+### Completed
+
+- [x] Azure CLI Configuration
+- [x] Azure Terraform Provider Configuration
+- [x] Terraform State Management
+- [x] Azure Resource Group Deployment
+- [x] Azure Virtual Network Deployment
+- [x] Azure Subnet Deployment
+- [x] Azure Network Security Group Deployment
+- [x] Terraform Apply Workflow
+- [x] Terraform State Verification
+- [x] Azure Portal Validation
+- [x] Terraform Destroy Workflow
+- [x] Complete Infrastructure Lifecycle Management
+
 ## Skills Demonstrated
 
 - Infrastructure as Code (IaC)
@@ -160,6 +175,7 @@ Status Code: 404
 - Infrastructure Lifecycle Management
 - Azure CLI
 - Cloud Automation
+- Azure Resource Validation
   
 ---
 
