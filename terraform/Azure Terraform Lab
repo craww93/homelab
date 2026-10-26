@@ -1,0 +1,12 @@
+## Azure Terraform Lab
+
+### Completed
+
+- [x] Configured Azure CLI
+- [x] Configured Azure Terraform Provider
+- [x] Implemented Terraform State Management
+- [x] Deployed Azure Resource Group
+- [x] Deployed Azure Virtual Network
+- [x] Deployed Azure Subnet
+- [x] Deployed Azure Network Security Group
+
