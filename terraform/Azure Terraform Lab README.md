@@ -48,6 +48,10 @@ az group list --output table
 
 Terraform was successfully used to deploy Azure infrastructure using Infrastructure as Code (IaC).
 
+
+<img width="910" height="1133" alt="azure terraform" src="https://github.com/user-attachments/assets/55120762-deca-4a15-979e-9f77031e1860" />
+
+
 The deployment included:
 
 - Azure Resource Group
