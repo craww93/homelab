@@ -181,11 +181,22 @@ Status Code: 404
 
 ## Next Steps
 
-- [ ] Azure Public IP
-- [ ] Azure Network Interface
+### Azure Infrastructure
+
+- [x] Azure Public IP
+- [x] Azure Network Interface
 - [ ] Azure Ubuntu VM Deployment
 - [ ] SSH Connectivity to Azure VM
-- [ ] Ansible Configuration Management
+
+### Automation
+
+- [x] Ansible Playbook Deployment Validation
+
+### Terraform Advanced
+
+- [x] Terraform Modules
 - [ ] Terraform Remote State
-- [ ] Terraform Modules
-- [ ] Terraform CI/CD Pipeline
+
+### DevOps
+
+- [x] Terraform CI/CD Pipeline
