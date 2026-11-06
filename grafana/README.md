@@ -21,9 +21,9 @@ The solution provides real-time visibility into infrastructure performance, syst
 ## Architecture
 
 Node Exporter
-↓
+|
 Prometheus
-↓
+|
 Grafana
 
 ---
