@@ -51,3 +51,33 @@ Grafana
 - Observability
 - Metrics Collection
 - Linux Monitoring
+
+ # Evidence
+
+### Docker Compose Deployment
+
+<img src="https://github.com/user-attachments/assets/6136ebbe-d688-431c-b40f-3b9484a9e408" />
+
+### Container Verification
+
+<img src="https://github.com/user-attachments/assets/a22fe212-d078-411e-ab76-0cbe4276c3ab" />
+
+### Prometheus Validation
+
+<img src="https://github.com/user-attachments/assets/e3411251-a96a-4b38-8520-32eab39ee71a" />
+
+### Grafana Dashboard
+
+<img src="https://github.com/user-attachments/assets/5271b2b7-7a97-48d7-a967-d1b336459f51" />
+
+### Monitoring Stack
+
+<img src="https://github.com/user-attachments/assets/441fbc36-7cca-43d2-931b-f0527bfaf18c" />
+
+### Service Validation
+
+<img src="https://github.com/user-attachments/assets/b7461e2d-20c8-40a7-8fbb-aa1466e798d5" />
+
+### Final Verification
+
+<img src="https://github.com/user-attachments/assets/273f3730-e364-4d9d-a359-4d1378b50ee0" />
