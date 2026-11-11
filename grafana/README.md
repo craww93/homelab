@@ -57,7 +57,8 @@ Grafana
 - Observability
 - Performance Monitoring
 
-  **Alerting**
+
+**Alerting**
 Grafana Alerting was configured to proactively monitor infrastructure health.
 
 **Alerts Configured**
@@ -77,6 +78,9 @@ Alert Evaluation Groups
 Contact Point Configuration
 Alert Labels
 Severity Classification
+
+
+
 
 
  # Evidence
