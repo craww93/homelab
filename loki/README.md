@@ -6,6 +6,7 @@ This provides operational visibility beyond infrastructure metrics by enabling l
 
 
 **Logging Architecture**
+
 Linux Log Files | Promtail | Loki | Grafana
 
 
