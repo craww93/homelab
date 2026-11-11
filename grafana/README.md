@@ -30,12 +30,19 @@ Grafana
 
 ## Completed
 
-- [x] Docker Compose Deployment
 - [x] Prometheus Deployment
 - [x] Node Exporter Deployment
 - [x] Grafana Deployment
+- [x] Prometheus Data Source Configuration
+- [x] Node Exporter Full Dashboard Deployment (ID 1860)
 - [x] Dashboard Configuration
+- [x] Grafana Alerting Configuration
+- [x] High CPU Usage Alert
+- [x] High Memory Usage Alert
+- [x] Contact Point Configuration
+- [x] Alert Evaluation Group Configuration
 - [x] Infrastructure Monitoring
+- [x] Infrastructure Alerting
 - [x] Observability Platform
 
 ---
@@ -47,15 +54,16 @@ Grafana
 - Grafana
 - Prometheus
 - Node Exporter
+- Grafana Alerting
 - Infrastructure Monitoring
-- Observability
-- Metrics Collection
+- Infrastructure Alerting
 - Linux Monitoring
 - Metrics Collection
 - Dashboard Configuration
+- Resource Monitoring
+- Performance Monitoring
 - Threshold-Based Alerting
 - Observability
-- Performance Monitoring
 
  # Evidence
 
@@ -108,3 +116,6 @@ Alert Evaluation Groups
 Contact Point Configuration
 Alert Labels
 Severity Classification
+
+<img width="1897" height="372" alt="image" src="https://github.com/user-attachments/assets/fdf95ab9-8e0a-4228-a2a7-83c6514633db" />
+
