@@ -81,9 +81,13 @@ The centralized logging platform enables:
 
 
 Prometheus = metrics
+
 Node Exporter = metric collection
+
 Grafana = dashboards & alerts
+
 Loki = log storage
+
 Promtail = log collection
 
 
