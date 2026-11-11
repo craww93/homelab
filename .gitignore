@@ -1,3 +1,22 @@
-git add .gitignore
-git commit -m "Extend gitignore"
-git push
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Secrets / variabelen
+terraform.tfvars
+*.auto.tfvars
+
+# Plan en backups
+plan.txt
+*.backup
+*.bak
+
+# Windows / editor
+Thumbs.db
+Desktop.ini
+.vscode/
+
+# Logs
+*.log
