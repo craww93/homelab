@@ -57,6 +57,28 @@ Grafana
 - Observability
 - Performance Monitoring
 
+  **Alerting**
+Grafana Alerting was configured to proactively monitor infrastructure health.
+
+**Alerts Configured**
+
+**High CPU Usage**
+Threshold: 80%
+Pending Period: 5 Minutes
+Severity: Warning
+
+**High Memory Usage**
+Threshold: 90%
+Pending Period: 5 Minutes
+Severity: Warning
+
+**Notification Management**
+Alert Evaluation Groups
+Contact Point Configuration
+Alert Labels
+Severity Classification
+
+
  # Evidence
 
 ### Docker Compose Deployment
@@ -86,24 +108,3 @@ Grafana
 ### Final Verification
 
 <img src="https://github.com/user-attachments/assets/273f3730-e364-4d9d-a359-4d1378b50ee0" />
-
-**Alerting**
-Grafana Alerting was configured to proactively monitor infrastructure health.
-
-**Alerts Configured**
-
-**High CPU Usage**
-Threshold: 80%
-Pending Period: 5 Minutes
-Severity: Warning
-
-**High Memory Usage**
-Threshold: 90%
-Pending Period: 5 Minutes
-Severity: Warning
-
-**Notification Management**
-Alert Evaluation Groups
-Contact Point Configuration
-Alert Labels
-Severity Classification
