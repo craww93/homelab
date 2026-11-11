@@ -4,9 +4,9 @@ Promtail collects log files from the Linux host and forwards them to Loki, where
 
 This provides operational visibility beyond infrastructure metrics by enabling log analysis, troubleshooting, and event investigation.
 
+
 **Logging Architecture**
 Linux Log Files | Promtail | Loki | Grafana
-
 
 
 **Log Sources**
@@ -79,12 +79,10 @@ The centralized logging platform enables:
 - Threshold-Based Alerting
 - Observability
 
-
 Prometheus = metrics
 Node Exporter = metric collection
 Grafana = dashboards & alerts
 Loki = log storage
 Promtail = log collection
-
 
 <img width="2543" height="1305" alt="image" src="https://github.com/user-attachments/assets/f9c36fc0-ef06-4373-ab13-5a4feea66304" />
