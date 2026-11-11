@@ -80,6 +80,7 @@ The centralized logging platform enables:
 - Observability
 
 
+
 Prometheus = metrics
 
 Node Exporter = metric collection
@@ -89,6 +90,7 @@ Grafana = dashboards & alerts
 Loki = log storage
 
 Promtail = log collection
+
 
 
 <img width="2543" height="1305" alt="image" src="https://github.com/user-attachments/assets/f9c36fc0-ef06-4373-ab13-5a4feea66304" />
