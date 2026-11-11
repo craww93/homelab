@@ -11,9 +11,13 @@ Linux Log Files | Promtail | Loki | Grafana
 Promtail was configured to collect logs from:
 
 /var/log/auth.log
+
 /var/log/kern.log
+
 /var/log/dpkg.log
+
 /var/log/cloud-init.log
+
 /var/log/alternatives.log
 
 **Logging Capabilities**
@@ -73,11 +77,11 @@ The centralized logging platform enables:
 - Observability
 
 
-<img width="2543" height="1305" alt="image" src="https://github.com/user-attachments/assets/f9c36fc0-ef06-4373-ab13-5a4feea66304" />
-
-
 Prometheus = metrics
 Node Exporter = metric collection
 Grafana = dashboards & alerts
 Loki = log storage
 Promtail = log collection
+
+
+<img width="2543" height="1305" alt="image" src="https://github.com/user-attachments/assets/f9c36fc0-ef06-4373-ab13-5a4feea66304" />
