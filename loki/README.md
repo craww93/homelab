@@ -8,6 +8,7 @@ This provides operational visibility beyond infrastructure metrics by enabling l
 Linux Log Files | Promtail | Loki | Grafana
 
 **Log Sources**
+
 Promtail was configured to collect logs from:
 
 /var/log/auth.log
